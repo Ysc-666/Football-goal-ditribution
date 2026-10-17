@@ -1,10 +1,10 @@
 # Football-Goal-Distribution
 
-Using Python (**pandas** + **matplotlib**) to process the match-event database of the **2026 FIFA World Cup** and analyze **when** goals are scored during a football match.
+Using Python (**pandas** + **matplotlib**) to process the match-event database of the **FIFA World Cup 2026 Dataset - Live & Updated Stats** and analyze **when** goals are scored during a football match.
 
 ## Overview
 
-This project reads the match-event data, organizes the important events, extracts every goal, and analyzes how goals are distributed across the minutes of a match. As a football player and a Data Science & AI student, I wanted to test whether common beliefs — such as "more goals happen late in the game" or "stoppage time is the most dramatic period" — are actually supported by real data.
+This project reads the match-event data, organizes the important events, extracts every goal, and analyzes how goals are distributed across the minutes of a match. As an amateur football enthusiasts and a Data Science & AI student, I wanted to test whether common beliefs — such as "more goals happen late in the game" or "stoppage time is the most dramatic period" — are actually supported by real data.
 
 ## Dataset
 
@@ -59,14 +59,14 @@ Descriptive statistics for the 294 goals:
 ## Visualizations
 
 ### 1. Goal distribution by minute
-![Distribution of goals in each minute](goal_distribution.png)
+![Distribution of goals in each minute](distribution of goals in each minute.png)
 
 Goals are spread across the match, but with two clear stoppage-time peaks at minutes 45 and 90.
 
 ### 2. First half vs second half vs extra time
 ![Half comparison](half_comparison.png)
 
-The second half accounts for the largest share — **First Half XX% / Second Half XX% / Extra Time XX%** *(replace the XX with the percentages shown on your pie chart)*.
+The second half accounts for the largest share — **First Half 41.8% / Second Half 55.8% / Extra Time 2.4%** .
 
 ### 3. Goals by 15-minute interval
 ![15-minute interval analysis](interval_analysis.png)
@@ -112,5 +112,5 @@ Football-goal-distribution/
 
 ## Acknowledgements
 
-- Dataset: **FIFA World Cup 2026 Dataset** on Kaggle.
+- Dataset: **FIFA World Cup 2026 Dataset - Live & Updated Stats** on Kaggle.
 - Built as a learning project while studying Data Science & AI at Hong Kong Metropolitan University.
