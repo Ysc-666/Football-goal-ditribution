@@ -59,7 +59,7 @@ Descriptive statistics for the 294 goals:
 ## Visualizations
 
 ### 1. Goal distribution by minute
-![Distribution of goals in each minute](distribution of goals in each minute.png)
+![Distribution of goals in each minute](distribution_of_goals_in_each_minutes.png)
 
 Goals are spread across the match, but with two clear stoppage-time peaks at minutes 45 and 90.
 
